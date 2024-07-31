@@ -1,0 +1,16 @@
+{
+  "name": "day14",
+  "version": "1.0.0",
+  "description": "creating api",
+  "main": "first.js",
+  "scripts": {
+    "test": "basic npm commands"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "console"
+  ],
+  "author": "gopi",
+  "license": "ISC"
+}

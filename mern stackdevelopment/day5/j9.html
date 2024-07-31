@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="gopi()">result</button>
+    <p id="kanna"></p>
+    <script>
+        function gopi()
+        {
+            for(i=1;i<=100;i++)
+        {
+          if(i%10==8)  
+          {
+            document.getElementById('kanna').innerHTML+=i+"<br>"
+            document.getElementById('kanna').innerHTML+=i+"*8 ="+(i*8)+"<br>"
+          }
+            
+        }
+    }
+
+    </script>
+    
+</body>
+</html>

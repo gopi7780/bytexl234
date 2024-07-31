@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="balaji()">show me</button>
+    <b id="gopi"></b>
+    <script>
+        function balaji()
+        {
+            var i,j;
+            var a=['a','b','c','d','e'];
+            for(i=0;i<=a.length-1;i++)
+             {
+            for(j=0;j<=i;j++)
+             {
+            document.getElementById('gopi').innerHTML+=a[j]+" ";
+            }
+            document.getElementById('gopi').innerHTML+="<br/>";
+            }
+
+        }
+    </script>
+</body>
+</html>
